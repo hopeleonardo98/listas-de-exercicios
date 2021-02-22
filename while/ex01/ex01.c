@@ -16,6 +16,7 @@ int main(void){
     system("cls");
     printf("Salario R$");
     scanf("%f", &salario);
+    system("cls");
 
     printf("Salario a receber R$%0.2f \n", calcularSalario(salario));
 

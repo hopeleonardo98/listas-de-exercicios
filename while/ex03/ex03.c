@@ -14,6 +14,7 @@ int main(void){
     system("cls");
     printf("Digite o valor do raio: ");
     scanf("%f", &raio);
+    system("cls");
     
     printf("Area: %0.2f \n", calcularAreaCirculo(raio));
 

@@ -10,13 +10,15 @@
 // Programa principal
 int main(void){
 
-    float deposito, taxaDeJuros;
+    float deposito;
+    float taxaDeJuros;
 
     system("cls");
     printf("Digite o valor do deposito R$");
     scanf("%f", &deposito);
     printf("Valor da taxa de juros: ");
     scanf("%f", &taxaDeJuros);
+    system("cls");
 
     float valorTotal = deposito + calcularJuros(deposito, taxaDeJuros);
 
