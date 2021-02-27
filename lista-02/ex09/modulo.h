@@ -1,6 +1,8 @@
 #ifndef modulo_h
     #define modulo_h
 
+    #define totalAluno 2
+
     // Estrutura
     struct Aluno{
         float nota1;
@@ -8,10 +10,13 @@
         #define qtdeNotas 2
     };
 
-    /*  Calcula a media de cada aluno em um vetor*/
-    void calcularMedia(float *vMedia, struct Aluno *vAluno, unsigned int tamanho);
+    //  Leitura do vetor de alunos
+    void leitura(struct Aluno *vAluno);
 
-    // Imprime a media dos alunos
-    void imprimirMedia(float *vMedia, unsigned int tamanho);
+    //  Calcula a media de cada aluno em um vetor
+    void calcularMedia(float *vMedia, struct Aluno *vAluno);
+
+    //  Imprime a media dos alunos
+    void imprimirMedia(float *vMedia);
 
 #endif
