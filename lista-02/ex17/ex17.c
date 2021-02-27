@@ -11,8 +11,6 @@
 #include <stdlib.h>
 #include "modulo.h"
 
-unsigned const int qtdePessoas = 8;
-
 // Programa principal
 int main(void){
 

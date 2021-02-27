@@ -2,7 +2,7 @@
     #define modulo_h
 
     //  Constante do programa principal  
-    extern unsigned const int qtdePessoas;
+    #define qtdePessoas 8
 
     //  Estrutura
     struct Pessoa{
