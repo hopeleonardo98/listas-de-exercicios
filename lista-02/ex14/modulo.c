@@ -1,5 +1,5 @@
 #include "modulo.h"
 
-int parOuImpar(int numero){
+inline int parOuImpar(int numero){
    return numero % 2 == 0; 
 }
